@@ -1,0 +1,18 @@
+/* in-line style
+ internal style sheet
+ external style sheet
+
+
+Style at least one HTML element using an in-line style.
+Style at least one HTML element using internal style sheets.
+Store most of your styles in an external style sheet named albumStyles.css*/
+
+body {
+	background-color: #997300;
+}
+
+table {
+	background-color: #AA55AA;
+	font-size: 20px;
+	color: white;
+}
