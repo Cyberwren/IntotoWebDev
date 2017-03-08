@@ -1,7 +1,7 @@
-/* in-line style
- internal style sheet
- external style sheet
-
+/*
+in-line style
+internal style sheet
+external style sheet
 
 Style at least one HTML element using an in-line style. DONE
 Style at least one HTML element using internal style sheets. DONE
@@ -10,16 +10,31 @@ Store most of your styles in an external style sheet named albumStyles.css DONE
 Apply a hosted or embedded font to the album title and the text of "Band Members and Producers.” DONE
 If the album's image is in an img element, move it to a new div and set the image as the div's 
 background. Note: You may need to use height to get the positioning right. DONE
-Italicize each of the band members and producers DONE */ 
+Italicize each of the band members and producers DONE 
+
+1. Apply styles to the link to the band's site with the following desired effects:
+	a. Links should only be underlined when you are hovering over a link. The other states 
+	should not be underlined. DONE
+	b. When hovering, set the background of the link to a different color. DONE
+2. Italicize the track numbers, titles, and lengths. DONE
+3. Set the table background to a color of your choice. DONE
+*/
 
 body {
 	background-color: #997300;
 }
 
-table {
-	background-color: #AA55AA;
-	font-size: 20px;
-	color: white;
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	background-color: yellow;
 }
 
 h1 {
@@ -40,5 +55,15 @@ h1 {
 }
 
 .italic {
+	font-style: italic;
+}
+
+table {
+	background-color: #AA55AA;
+	font-size: 20px;
+	color: white;
+}
+
+tbody {
 	font-style: italic;
 }
