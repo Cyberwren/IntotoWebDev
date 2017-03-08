@@ -1,17 +1,25 @@
 
 /*Your header and footer must match across the pages, so store their styles in an external file
- called restaurantStyles.css.
-Apply all positioning CSS styles for the image on the home page as an in-line style.
+ called restaurantStyles.css. DONE
+Apply all positioning CSS styles for the image on the home page as an in-line style. DONE
 Apply all styles for the menu and contact form in internal style sheets.
 */
 
-Stupid line
-
 header {
+	color: Orange;
+}
 
+header h1 {
+	font-size: 45px;
+	text-align: center;
 }
 
 footer {
-	
+	color: Orange;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin-bottom: -5%;
 }
-
