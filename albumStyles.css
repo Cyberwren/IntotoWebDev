@@ -3,9 +3,14 @@
  external style sheet
 
 
-Style at least one HTML element using an in-line style.
-Style at least one HTML element using internal style sheets.
-Store most of your styles in an external style sheet named albumStyles.css*/
+Style at least one HTML element using an in-line style. DONE
+Style at least one HTML element using internal style sheets. DONE
+Store most of your styles in an external style sheet named albumStyles.css DONE
+
+Apply a hosted or embedded font to the album title and the text of "Band Members and Producers.” DONE
+If the album's image is in an img element, move it to a new div and set the image as the div's 
+background. Note: You may need to use height to get the positioning right. DONE
+Italicize each of the band members and producers DONE */ 
 
 body {
 	background-color: #997300;
@@ -15,4 +20,25 @@ table {
 	background-color: #AA55AA;
 	font-size: 20px;
 	color: white;
+}
+
+h1 {
+	font-family: 'Griffy', cursive;
+	color: blue;
+}
+
+.griff {
+	font-family: 'Griffy', cursive;
+	font-size: 25px;
+	text-align: center;
+}
+
+.cover {
+	background-image: url(https://images-na.ssl-images-amazon.com/images/I/61P809n69ZL._SS500.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.italic {
+	font-style: italic;
 }
