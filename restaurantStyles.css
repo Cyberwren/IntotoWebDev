@@ -11,10 +11,36 @@ Give the menu background a color other than white. DONE
 Set the background of the home page's content - not including the header, footer, or site navigation
  - to a color other than white. DONE
 Set the form labels for the required fields to be bold. 
+
+1. Style the site navigation so that:
+	a. Visited links appear in a different color than their default state. DONE
+	b. When you hover over a link, the text is bold. This should only be when hovering.
+	 Otherwise, the text should be the normal thickness. DONE
+	c. Active links should not be underlined. DONE
+2. Add a section to the menu for beverages, with a table like this:
+Beverages
+Root Beer	$3.00
+Bottled Water	$1.25
+Lemonade	$1.00
+Iced Tea	$1.25
+3. Style this table to match your site's look and feel.
 */
 
 body {
 	background-color: teal;
+}
+
+a:link {
+	text-decoration: none;	
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: bold;
 }
 
 header {
@@ -24,6 +50,17 @@ header {
 
 .menuitem {
 	font-size: 20px;
+}
+
+thead.bevh {
+	font-size: 30px;
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+}
+
+tbody.bevr {
+	text-align: right;
+	font-size: 25px;
 }
 
 header h1 {
