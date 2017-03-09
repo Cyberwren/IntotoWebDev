@@ -1,0 +1,44 @@
+#div1 {
+
+height: 150px;
+
+width: 400px;
+
+margin: 20px;
+
+border: 1px solid red;
+
+padding: 10px;
+
+}
+
+Total height =
+margin-top (20) + border-top (1) + padding-top (10) + 
+(height of the content) (150) + padding-bottom (10) + 
+border-bottom (1) + margin-bottom (20)
+
+20 + 1 + 10 + 150 + 10 + 1 +20 = 212 Total height
+
+
+Total width = 
+margin-left (20) + border-left (1) + 
+padding-left (10) + (width of the content) (400) + 
+padding-right (10) + border-right (1) + margin-right (20)
+
+20 + 1 + 10 + 400 + 10 + 1 +20 = 462 Total width
+
+
+Browser calculated height = 
+border-top (1) + padding-top (10) + 
+(height of the content) (150) + padding-bottom (10) +
+border-bottom (1)
+
+1 + 10 + 150 + 10 + 1 = 172 Total Browser calculated height
+
+
+Browser calculated width = 
+border-left (1) + padding-left (10) + 
+(width of the content) (400) + padding-right (10) +
+border-right (1)
+
+1 + 10 + 400 + 10 + 1 = 422 Total Browser calculated width
