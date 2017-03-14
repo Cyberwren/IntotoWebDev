@@ -18,10 +18,30 @@ Italicize each of the band members and producers DONE
 	b. When hovering, set the background of the link to a different color. DONE
 2. Italicize the track numbers, titles, and lengths. DONE
 3. Set the table background to a color of your choice. DONE
+
+Add Bootstrap to the page. DONE
+The Tracks table should be a responsive table. 
+Alternate the background color of the tracks.
+Show the album in a circle shape.
 */
 
 body {
 	background-color: #997300;
+}
+
+h1 {
+	font-family: 'Griffy', cursive;
+	color: blue;
+}
+
+table {
+	background-color: #AA55AA;
+	font-size: 20px;
+	color: white;
+}
+
+tbody {
+	font-style: italic;
 }
 
 a:link {
@@ -37,10 +57,6 @@ a:hover {
 	background-color: yellow;
 }
 
-h1 {
-	font-family: 'Griffy', cursive;
-	color: blue;
-}
 
 .griff {
 	font-family: 'Griffy', cursive;
@@ -55,15 +71,5 @@ h1 {
 }
 
 .italic {
-	font-style: italic;
-}
-
-table {
-	background-color: #AA55AA;
-	font-size: 20px;
-	color: white;
-}
-
-tbody {
 	font-style: italic;
 }
