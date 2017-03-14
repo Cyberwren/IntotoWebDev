@@ -1,0 +1,91 @@
+
+/*
+Your header and footer must match across the pages, so store their styles in an external file
+ called restaurantStyles.css. DONE
+Apply all positioning CSS styles for the image on the home page as an in-line style. DONE
+Apply all styles for the menu and contact form in internal style sheets. DONE
+
+Style the restaurant name with a hosted or embedded font. DONE
+Make sure that the menu item names are larger than their descriptions. DONE
+Give the menu background a color other than white. DONE
+Set the background of the home page's content - not including the header, footer, or site navigation
+ - to a color other than white. DONE
+Set the form labels for the required fields to be bold. 
+
+1. Style the site navigation so that:
+	a. Visited links appear in a different color than their default state. DONE
+	b. When you hover over a link, the text is bold. This should only be when hovering.
+	 Otherwise, the text should be the normal thickness. DONE
+	c. Active links should not be underlined. DONE
+2. Add a section to the menu for beverages, with a table like this:
+Beverages
+Root Beer	$3.00
+Bottled Water	$1.25
+Lemonade	$1.00
+Iced Tea	$1.25
+3. Style this table to match your site's look and feel.
+
+1. Add Bootstrap to the site. DONE
+2. Style the site navigation so that:
+	a. You are using either tabs or pills. DONE
+	b. Use a jumbotron or page header to call out big news
+	- your restaurant is opening a new location! DONE
+3. Make the site responsive using Bootstrap's grid system.
+	a. The menu items should stack well, with no overlapping. DONE
+	b. The front page content should stack as well. DONE
+	c. Change the Home link to use the Glyphicon that looks like a house. DONE
+*/
+
+body {
+	background-color: teal;
+}
+
+a:link {
+	text-decoration: none;	
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: bold;
+}
+
+header {
+	color: Orange;
+	background-color: black;
+}
+
+.menuitem {
+	font-size: 20px;
+}
+
+.bevh {
+	font-size: 30px;
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+}
+
+.bevr {
+	text-align: right;
+	font-size: 25px;
+}
+
+header h1 {
+	font-family: 'Griffy', cursive;
+	font-size: 45px;
+	text-align: center;
+}
+
+footer {
+	color: Orange;
+	text-align: center;
+	background-color: black;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin-bottom: -5%;
+}
