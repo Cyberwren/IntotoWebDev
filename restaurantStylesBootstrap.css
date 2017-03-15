@@ -34,6 +34,13 @@ Iced Tea	$1.25
 	a. The menu items should stack well, with no overlapping. DONE
 	b. The front page content should stack as well. DONE
 	c. Change the Home link to use the Glyphicon that looks like a house. DONE
+
+1. Add a Carousel that rotates with three pieces of information:
+	a. We're opening a new location! DONE
+	b. We're rolling out our seasonal menu, with special options for this season. DONE
+	c. The Drink of the Month is SG Special Brew. DONE
+2. Make sure that users who have JavaScript disabled know that this site is
+ best viewed with JavaScript enabled.
 */
 
 body {
@@ -56,6 +63,20 @@ a:hover {
 header {
 	color: Orange;
 	background-color: black;
+}
+
+.carousel {
+	width: 60%;
+	text-align: center;
+	margin: 15%, 15%, 15%, 15%;
+}
+
+.active {
+	display: inline;
+}
+
+.inactive {
+	visibility: hidden;
 }
 
 .menuitem {
