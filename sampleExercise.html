@@ -10,42 +10,51 @@
 
 <body>
 
-<h1>Sample</h1>
-
-<br>
-
-<form name="numberFun" class="form-inline">
-	<table>
-		<tr>
-			<td><label for="startNum">Starting Number:&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
-			<td><input type="number" class="form-control" id="startNum"></td>
-		</tr>
-		<tr>
-			<td><label for="endNum">Ending Number:&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
-			<td><input type="number" class="form-control" id="endNum"></td>
-		</tr>
-		<tr>
-			<td><label for="stepNum">Step:&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
-			<td><input type="number" class="form-control" id="stepNum"></td>
-	</table>
-
-<br>
-
-&emsp;&emsp;&emsp;&emsp;&emsp;<button id="displayBtn">Display Events</button></td>
-
-<br>
-
-<div>
-	<p id="printText"></p>
-</div>
-
-<!-- Container for output -->
-<div>
-	<p id="numList"></p>
-</div>
-
-</form>
-
 <script type="text/javascript" src="sampleExercise.js"></script>
+
+<div class="container">
+
+	<h1>Sample</h1>
+
+	<br>
+
+	<form class="form-inline">
+		<table>
+			<tr>
+				<td class="form-group"><label for="startNumber">Starting Number:&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
+				<td><input type="number" class="form-control" id="startNum"></td>
+			</tr>
+			<tr>
+				<td class="form-group"><label for="endNumber">Ending Number:&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
+				<td><input type="number" class="form-control" id="endNum"></td>
+			</tr>
+			<tr>
+				<td class="form-group"><label for="stepNumber">Step:&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
+				<td><input type="number" class="form-control" id="stepNum"></td>
+		</table>
+	</form>
+
+	<br>
+
+	<!-- The button -->
+	&emsp;&emsp;&emsp;&emsp;&emsp;<button id="displayBtn" onclick="generateNumbers()">Display Events</button>
+
+	<br>
+
+	<!-- Container for recap of steps made to be printed out after numbers are entered -->
+	<div class="pad">
+		<p id="printText"></p>
+	</div>
+
+	<br>
+
+	<!-- Container for output after Display Events is clicked -->
+	<div id="numList" class="pad">
+		<!-- <p id="numList"></p> -->
+	</div>
+
+
+
+</div>
 </body>
 </html>
